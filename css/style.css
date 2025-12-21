@@ -3,9 +3,18 @@
     box-sizing: border-box;
 }
 
-
+:root{
+        --headercolor:#A05467;
+        --footercolor:#5E2433;
+        --tekstcolor:#584F3F;
+        --bgcolor:#D7CBB7; 
+        --knapbg:#F2EBDE; 
+        --skriftype1: "montserrat",sans-serif;
+        --skriftype2: "Island Moments", cursive;
+}
 
 body{
-    background-color: bisque;
+    font-family: var(--skriftype1);
     
 }
+
