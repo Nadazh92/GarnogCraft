@@ -15,6 +15,68 @@
 
 body{
     font-family: var(--skriftype1);
+}
+
+/* --------header---------------- */
+.styl-navg{
+    background-color: var(--headercolor);
+    font-size: 14pt;
+    color: white;
+    display: flex;
+    
     
 }
+
+.styl-navg img{
+    height: 90px;
+    width: 100px;
+    margin: 15px;
+    
+}
+
+.opdele-nav {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+}
+
+.first-col{
+    display: flex; 
+    border-bottom: white solid 1px;
+    padding-bottom: 10px;
+   
+}
+
+.second-col{
+    display: flex;
+    gap: 15rem;
+    margin-top: 15px;
+    margin-left: 10rem; 
+    
+}
+
+
+
+.styl-navg ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-top: 30px;
+     
+}
+.styl-navg ul li a{
+    text-decoration: none; 
+    color: white;  
+    
+     
+}
+
+.first-col div{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+
 
