@@ -94,37 +94,6 @@ body{
  /* tablet og  mobile  */
 @media screen and (max-width:768px){
 
-    /* .styl-navg{
-        font-size: 9pt;
-        flex-wrap: wrap;
-    }
-
-    .styl-navg img {
-        height: 50px;
-        width: 60px;
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .opdele-nav{
-        align-items: center;
-    }
-
-    .styl-navg ul{
-        gap:20px;
-        margin-left: auto;
-        margin-top: 20px;
-    }
-
-    .second-col{
-        
-        flex-wrap: nowrap;
-        gap: 20px;
-        margin-left:0px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-       
-    } */
      
     .styl-navg{
         flex-wrap: nowrap;
@@ -203,7 +172,6 @@ body{
         font-size: 12pt;
         flex-wrap: nowrap;
         
-        
     }
 
     .styl-navg img {
@@ -222,7 +190,6 @@ body{
     }
 
     .second-col{
-        
         flex-wrap: nowrap;
         gap: 20px;
         margin-left:150px;
