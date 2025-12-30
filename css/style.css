@@ -23,6 +23,7 @@ body{
     font-size: 14pt;
     color: white;
     display: flex;
+    flex-direction: row;
     
     
 }
@@ -37,7 +38,7 @@ body{
 .opdele-nav {
    display: flex;
    flex-direction: column;
-   width: 100%;
+   width: 90%;
    
 }
 
@@ -53,6 +54,7 @@ body{
     gap: 15rem;
     margin-top: 15px;
     margin-left: 10rem; 
+    flex-wrap: nowrap;
     
 }
 
@@ -72,17 +74,27 @@ body{
      
 }
 
-.first-col div{
+ .fa-magnifying-glass {
+    
     margin-top: 30px;
     margin-left: auto;
-    margin-right: 2rem;
+    margin-right: 15px;
+}
+
+.fa-cart-shopping{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#bars{
+    display:none;
 }
 
 
+ /* tablet og  mobile  */
+@media screen and (max-width:768px){
 
-@media screen and (max-width:1000px){
-
-    .styl-navg{
+    /* .styl-navg{
         font-size: 9pt;
         flex-wrap: wrap;
     }
@@ -112,25 +124,126 @@ body{
         margin-top: 30px;
         margin-bottom: 30px;
        
+    } */
+     
+    .styl-navg{
+        flex-wrap: nowrap;
+    }
+
+    .styl-navg img {
+        height: 70px;
+        width: 80px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    
+    .first-col ul li {
+        display: none;
+    }
+
+   
+    .first-col{
+        border-bottom: none;
+        
+    }
+
+    .second-col p{
+        display: none;
+    }
+
+    .first-col  .fa-magnifying-glass{
+       display: none;
+
+    }
+
+
+    .first-col .fa-cart-shopping{
+
+        font-size: 25px;
+        margin-right:15px;
+        margin-left: auto;
+        margin-top: 55px;
+
+        
     }
 
      .show{
         display: block; 
         position: absolute;
-        top: 70px;
+        top: 5px;
         background-color:var(--headercolor);
         width: 100%;
+        color: white;
+    }
+
+    
+    #bars{
+        display:block;
+        font-size: 30px;
+        margin-top: 50px;
+        /* margin-left: auto; */
+        margin-right: 10px;
     }
 
      button#bars{
         background-color: transparent;
         border: none;
         color: white;
-    
+        
     }
 
-    
-
-
 }
+
+/* medium devices (lanscape tablet 768px and up) */
+@media screen and (min-width:768px) and (max-width:1180px){
+
+    .styl-navg{
+        font-size: 12pt;
+        flex-wrap: nowrap;
+        
+        
+    }
+
+    .styl-navg img {
+        height: 70px;
+        width: 80px;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+
+
+    .styl-navg ul{
+        gap:20px;
+        /* margin-left: auto; */
+        margin-top: 20px;
+    }
+
+    .second-col{
+        
+        flex-wrap: nowrap;
+        gap: 20px;
+        margin-left:150px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    } 
+
+    .first-col .fa-magnifying-glass{
+       margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .first-col .fa-cart-shopping{
+         
+         margin-right: 10px;
+    }
+}
+
+
+
+
+
 
