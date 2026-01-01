@@ -9,12 +9,12 @@
         --tekstcolor:#584F3F;
         --bgcolor:#D7CBB7; 
         --knapbg:#F2EBDE; 
-        --skriftype1: "montserrat",sans-serif;
-        --skriftype2: "Island Moments", cursive;
+        --Montserrat: "montserrat",sans-serif;
+        --Island_Moments: "Island Moments", cursive;
 }
 
 body{
-    font-family: var(--skriftype1);
+    font-family:var(--Montserrat);
 }
 
 /* --------header---------------- */
@@ -149,6 +149,30 @@ footer{
     margin-left: 3.5rem;
 }
 
+/* ----------------------main------------------- */
+
+.styl-hero{
+    width: 100%;
+}
+
+.velkom_section{
+    color: var(--tekstcolor);
+    text-align: center;
+    margin-top: 2rem;
+      
+}
+.velkom_section h2{
+    padding-bottom:2rem;
+    font-size: 14pt;
+}
+
+.velkom_section p {
+    max-width: 70%;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
 
 
 
@@ -228,16 +252,41 @@ footer{
 
     /* --------------footer----------- */
 
+    .footer_container{
+        flex-wrap: wrap;
+        gap:2rem;
+    }
 
+    .footer_container h1{
+        font-size: 12pt;
+    }
 
+    .footer_container p{
+        font-size: 9pt;
+    }
 
+    .footer_container div {
+        margin-left: 1rem;
+    }
 
+    .ekstra_info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1rem;
+
+    }
+    .ekstra_info p{
+        font-size: 9pt;
+        margin-left: 1rem;
+    }
     
 
 }
 
 /* medium devices (lanscape tablet 768px and up) */
 @media screen and (min-width:768px) and (max-width:1180px){
+
+    /* -----------------header-------------------- */
 
     .styl-navg{
         font-size: 12pt;
@@ -268,6 +317,9 @@ footer{
         margin-bottom: 30px;
         
     } 
+    .second-col p {
+        font-size: 10pt;
+    }
 
     .first-col .fa-magnifying-glass{
        margin-left: auto;
@@ -278,6 +330,39 @@ footer{
          
          margin-right: 10px;
     }
+
+    /* ------------------footer------------------ */
+
+     .footer_container{
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        gap:8rem;
+    }
+
+    .footer_container h1{
+        font-size: 12pt;
+    }
+
+    .footer_container p{
+        font-size: 10pt;
+    }
+
+    .footer_container div {
+        margin-left:2rem;
+    }
+
+    .ekstra_info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:2rem;
+
+    }
+    .ekstra_info p{
+        font-size: 10pt;
+        margin-left: 1rem;
+    }
+
+
 }
 
 
