@@ -7,8 +7,8 @@
         --headercolor:#A05467;
         --footercolor:#5E2433;
         --tekstcolor:#584F3F;
-        --bgcolor:#D7CBB7; 
-        --knapbg:#F2EBDE; 
+        --bgcolor:#F5F2ED; 
+        --knapbg:#F3ecdf; 
         --Montserrat: "montserrat",sans-serif;
         --Island_Moments: "Island Moments", cursive;
 }
@@ -75,7 +75,7 @@ body{
 }
 
 .first-col ul li a:hover{
-    color: black;
+    color:var(--tekstcolor);
 }
 
  .fa-magnifying-glass {
@@ -180,6 +180,116 @@ footer{
     margin-left:  auto;
     margin-right: auto;
     margin-bottom: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.del{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.del div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--bgcolor);
+    padding-left: 60px;
+    padding-top: 50px;
+    color: var(--tekstcolor);
+    padding-right: 30px;
+}
+
+.del img {
+    width: 50%;
+    height: 400px;
+}
+
+
+
+.del p{
+    padding-top:20px;
+}
+
+.styl_h{
+    font-size: 25pt;
+}
+
+.del a{
+    margin-top: 30px;
+    border: 2px solid var(--tekstcolor);
+    background-color: var(--knapbg);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--tekstcolor);
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font-weight: 600;
+}
+.del b{
+    padding-top: 5px;
+}
+
+.linje{
+    border-bottom: 2px solid var(--tekstcolor) ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: center;
+}
+
+.opskrift_section h2{
+    color: var(--tekstcolor);
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.styl-pet{
+    color: var(--tekstcolor);
+    font-size: 40px;
+    font-family: var(--Island_Moments);
+    text-align: center;
+    padding-bottom: 50px;
+    
+
+}
+
+.billede-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.billede-container div{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.billede-container div p {
+    font-family: var(--Montserrat);
+    font-size: 12pt;
+}
+
+.billede-container div img{
+    width: 300px;
+    height: 390px;
+    padding-bottom: 10px;
+    
+}
+
+.billede-container div .styl_undertekst{
+    font-size: 10pt;
+    font-family: var(--Montserrat);
 }
 
 
