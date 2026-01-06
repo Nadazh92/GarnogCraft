@@ -237,7 +237,7 @@ footer{
 
 .linje{
     border-bottom: 2px solid var(--tekstcolor) ;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 20px;
     margin-left: 6rem;
     margin-right: 6rem;
@@ -268,6 +268,15 @@ footer{
     gap: 30px;
 }
 
+.billede-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+
 .billede-container div{
     display: flex;
     flex-direction: column;
@@ -292,8 +301,49 @@ footer{
     font-family: var(--Montserrat);
 }
 
+/* ------- */
+
+.billede-container2 div{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.billede-container2 div p {
+    font-family: var(--Montserrat);
+    font-size: 12pt;
+}
+
+.billede-container2 div img{
+    width: 300px;
+    height: 390px;
+    padding-bottom: 10px;
+    
+}
+
+.billede-container2 div .styl_undertekst{
+    font-size: 10pt;
+    font-family: var(--Montserrat);
+}
 
 
+.styl-flere-kits{
+    background-color: var(--knapbg);
+    color: var(--tekstcolor);
+    text-align: center;
+    width: 300px;
+    border: 2px solid var(--tekstcolor);
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 37.5rem;
+    margin-bottom: 100px;
+    
+
+}
 
 
 
